@@ -1,15 +1,16 @@
 import React from 'react'
-import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer'
+import Header from '../Header/Header'
+import Window from '../Window/Window'
 
 export default function Layout({children}) {
   return (
-    <>
-    <Nav/>
-    <main>
+    <div className='flex flex-wrap'>
+    <Header/>
+    <Window>
         {children}
-    </main>
+    </Window>
     <Footer/>
-    </>
+    </div>
   )
 }
