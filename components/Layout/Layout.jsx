@@ -5,12 +5,14 @@ import Window from '../Window/Window'
 
 export default function Layout({children}) {
   return (
-    <div className='flex flex-wrap'>
-    <Header/>
+    <div>
+      <div className='flex flex-wrap'>
+      <Header/>
     <Window>
         {children}
     </Window>
-    <Footer/>
+      </div>
+      <Footer/>
     </div>
   )
 }
