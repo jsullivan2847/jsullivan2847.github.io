@@ -6,8 +6,16 @@ module.exports = {
     'components/Window/Window.jsx',
     'components/Layout/Layout.jsx',
     'components/Footer/Footer.jsx',
+    'components/Window/Window.jsx',
+    'components/Title/Title.jsx'
   ],
   theme: {
+    screens: {
+      'sm': '0px',
+      'md': '540px',
+      'lg': '900px'
+    },
+
     extend: {},
     colors: {
       'special-grey': 'rgb(74,74,74)',

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' overflow-clip flex content-center justify-between absolute bottom-0 bg-special-grey w-full h-20'>
+    <div className=' flex content-center justify-between fixed bottom-0 bg-special-grey w-full h-20'>
       <div className='flex-col w-36 ml-5 mt-2'>
         <p className=' text-white text-sm'> developed by James Sullivan</p>
         <p className='text-white text-sm'>© 2022</p>

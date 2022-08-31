@@ -3,10 +3,12 @@ import Nav from '../Nav/Nav'
 
 export default function Header() {
   return (
-    <div className='p-5 w-1/3'>
-        <img className="w-64 mb-2 rounded-tr-[40px]" src='../images/prof_pic.jpeg' alt="" />
-        <h5 className='mb-3'>Software Engineer in Brooklyn, NY</h5>
+    <div className='md:w-1/3 max-w-full '>
+        <img className="w-64 mb-2 md:rounded-tr-[40px]" src='../images/prof_pic.jpeg' alt="" />
+        <p className='mb-3 text-sm'><strong>Software Engineer</strong> in Brooklyn, NY</p>
     <Nav/> 
     </div>
   )
 }
+
+//media query 425
