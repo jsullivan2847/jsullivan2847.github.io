@@ -7,7 +7,7 @@ module.exports = {
     'components/Layout/Layout.jsx',
     'components/Footer/Footer.jsx',
     'components/Window/Window.jsx',
-    'components/Title/Title.jsx'
+    'components/Title/Title.jsx',
   ],
   theme: {
     screens: {
@@ -16,7 +16,15 @@ module.exports = {
       'lg': '900px'
     },
 
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        bold: ['Poppins@500', 'sans-serif']
+      },
+    },
+    variants: {
+
+    },
     colors: {
       'special-grey': 'rgb(74,74,74)',
       'light-grey': 'rgb(217,217,217)',

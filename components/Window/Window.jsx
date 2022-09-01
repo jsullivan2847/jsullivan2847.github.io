@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from '../Title/Title'
 
 export default function Window() {
   return (
-    <div className=' min-h 3/4ml-5 border-2 w-3/5 bg-special-grey my-20'>
+    <div className='w-5/6 lg:m-5 lg:w-3/5 '>
+            <Title/>
+     <div className='lg:ml-5 border-2 w-full lg:w-4/5 bg-special-grey mb-20 mt-5'>
         window
         window
         window
@@ -109,5 +112,7 @@ export default function Window() {
         window
         window
     </div>
+    </div>
+   
   )
 }

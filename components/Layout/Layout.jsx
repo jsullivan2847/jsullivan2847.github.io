@@ -7,9 +7,8 @@ import Window from '../Window/Window'
 export default function Layout({children}) {
   return (
     <div>
-      <div className='overflow-scroll transition-all duration-200 flex sm:justify-center md:justify-between lg:justify-between flex-wrap p-5'>
+      <div className='font-poppins h-screen overflow-scroll transition-all duration-200 flex justify-center lg:p-5 p-3 flex-wrap'>
       <Header/>
-      <Title/>
     <Window>
         {children}
     </Window>
