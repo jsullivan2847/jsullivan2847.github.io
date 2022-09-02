@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '/styles/Layout/Nav/Nav.module.css'
+import Link from 'next/link'
 
 
 

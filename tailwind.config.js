@@ -1,14 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    'components/Nav/Nav.jsx',
-    'components/Header/Header.jsx',
-    'components/Window/Window.jsx',
-    'components/Layout/Layout.jsx',
-    'components/Footer/Footer.jsx',
-    'components/Window/Window.jsx',
-    'components/Title/Title.jsx',
-    'components/Hamburger/Hamburger.jsx'
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+
   ],
   theme: {
     screens: {
