@@ -3,9 +3,72 @@ import Title from '../Title/Title'
 
 export default function Window() {
   return (
-    <div className='w-5/6 lg:m-5 lg:w-3/5 '>
-            <Title/>
-     <div className='lg:ml-5 lg:border-8 lg:w-4/5 lg:rounded-xl border-light-grey w-full mb-20 mt-5 p-2'>
+    <div className='w-full lg:m-5 lg:w-3/5 '>
+      <Title/>
+     <div className='lg:ml-5 lg:border-8 lg:w-4/5 lg:rounded-xl lg:max-h-[28rem] lg:overflow-scroll border-light-grey mb-20 mt-5 text-center'>
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
+        window
         window
         window
         window
