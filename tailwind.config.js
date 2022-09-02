@@ -8,6 +8,7 @@ module.exports = {
     'components/Footer/Footer.jsx',
     'components/Window/Window.jsx',
     'components/Title/Title.jsx',
+    'components/Hamburger/Hamburger.jsx'
   ],
   theme: {
     screens: {
