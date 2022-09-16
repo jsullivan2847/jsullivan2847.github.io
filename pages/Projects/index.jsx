@@ -9,7 +9,7 @@ export default function index() {
     <div>
      <Title text='Projects'/>
     <Window>
-      <div className='flex flex-wrap w-[800px] justify-center lg:justify-start'>
+      <div className='flex flex-wrap lg:w-[800px] justify-center lg:justify-start mb-[100px]'>
       <Project 
       name='Hide & Seek'
       pic='/images/HidenSeek.jpg'
@@ -28,9 +28,6 @@ export default function index() {
       pic='/images/MyPix.jpg'
       github='https://github.com/jsullivan2847/MyPix'
       trello='https://trello.com/b/sbd2KovY/mypix'/>
-      <Project/>
-      <Project/>
-      <Project/>
       <Project/>
       </div>
     </Window>

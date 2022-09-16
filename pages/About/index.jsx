@@ -20,8 +20,8 @@ export default function About() {
     My software engineering journey began a few years ago while studying
     sound design for game audio. When I realized I really enjoyed the
     programming side of the process, I started teaching myself C# using the
-    Unity game engine. I loved the way programming requires a balance of
-    creative skills and problem solving. Soon after I enrolled in an
+    Unity game engine. I fell in love with the way programming requires a balance of
+    creative skills and critical thinking. Soon after I enrolled in an
     immersive bootcamp with General Assembly where I learned how to apply my
     skills in a professional setting - working with new technologies and
     collaborating with other developers. I'm excited to continue this
