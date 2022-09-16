@@ -8,11 +8,11 @@ export default function About() {
     <div>
     <Title text='About'/>
     <div className='lg:hidden lg:w-1/3 flex flex-col justify-center items-center lg:border-r-2 lg:pr-10 border-light-grey'>
-        <img className="w-2/5 max-w-md lg:w-64 mb-2 lg:rounded-tr-[40px]" src='../images/prof_pic.jpeg' alt="" />
+        <img className="w-2/5 max-w-md md:w-48 lg:w-64 mb-2 lg:rounded-tr-[40px]" src='../images/prof_pic.jpeg' alt="" />
         <p className='mb-3 text-sm'><strong>Software Engineer</strong> in Brooklyn, NY</p>
     </div>
     <Window>
-    <p>
+    <p className="md:max-w-[600px]">
     Hello! I'm James - I'm a full stack software engineer with a background
     in the audio and service industries. I have a love for problem solving
     and an eye for outside-the-box solutions. I thrive in collaborative
