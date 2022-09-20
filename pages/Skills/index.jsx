@@ -1,10 +1,14 @@
 import React from 'react'
 import Title from '../../components/Title/Title'
 import Window from '../../components/Window/Window'
+import Head from 'next/head'
 
 export default function index() {
   return (
     <div>
+		<Head>
+			<title>Skills</title>
+		</Head>
         <Title text='Skills'/>
         <Window>
             <div className='w-fill flex flex-wrap'>

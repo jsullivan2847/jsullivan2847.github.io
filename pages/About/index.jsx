@@ -1,11 +1,18 @@
 import Window from "../../components/Window/Window";
 import React from "react";
 import Title from "../../components/Title/Title";
+import Head from "next/head";
 
 
 export default function About() {
   return (
     <div>
+    <Head>
+    <title>About</title>
+        <meta
+          name="description"
+          content="Meta description for the Contact page"/>
+    </Head>
     <Title text='About'/>
     <div className='lg:hidden lg:w-1/3 flex flex-col justify-center items-center lg:border-r-2 lg:pr-10 border-light-grey'>
         <img className="w-2/5 max-w-md md:w-48 lg:w-64 mb-2 lg:rounded-tr-[40px]" src='../images/prof_pic.jpeg' alt="" />

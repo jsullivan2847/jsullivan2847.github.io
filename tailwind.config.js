@@ -25,7 +25,12 @@ module.exports = {
       'special-grey': 'rgb(74,74,74)',
       'light-grey': 'rgb(217,217,217)',
       'white': 'rgb(255,255,255)',
-      'green': 'rgb(79,199,120)'
+      'yellow': 'rgb(253,226,147)',
+      'pink': 'rgb(255,221,223)',
+      'green': 'rgb(206,234,214)',
+      'blue': 'rgb(114,191,207)'
+
+
     }
   },
   plugins: [],
