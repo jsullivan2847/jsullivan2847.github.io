@@ -7,6 +7,7 @@ export default function Experience() {
     <div className='md:max-w-[600px] pb-[80px]'>
       <Head>
     <title>Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"></link>
     </Head>
       <Title text="Experience"/>
       <div className='p-5'>

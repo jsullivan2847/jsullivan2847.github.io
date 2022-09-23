@@ -12,6 +12,7 @@ export default function About() {
         <meta
           name="description"
           content="Meta description for the Contact page"/>
+           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"></link>
     </Head>
     <Title text='About'/>
     <div className='lg:hidden lg:w-1/3 flex flex-col justify-center items-center lg:border-r-2 lg:pr-10 border-light-grey'>
@@ -19,7 +20,7 @@ export default function About() {
         <p className='mb-3 text-sm'><strong>Software Engineer</strong> in Brooklyn, NY</p>
     </div>
     <Window>
-    <p className="md:max-w-[600px]">
+    <p className="md:max-w-[600px] font-poppins">
     Hello! I'm James - I'm a software engineer with a background
     in the audio and service industries. I have a love for problem solving
     and an eye for outside-the-box solutions. I thrive in collaborative
