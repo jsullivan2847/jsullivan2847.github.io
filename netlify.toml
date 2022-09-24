@@ -1,5 +1,7 @@
 # example netlify.toml
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
-  publish = "build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
