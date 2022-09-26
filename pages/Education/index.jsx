@@ -6,7 +6,6 @@ export default function Education() {
 
       <Head>
       <title>Education</title>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"></link>
       </Head>
       <div className='p-5'>
         <div className='relative rounded-3xl bg-red w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>

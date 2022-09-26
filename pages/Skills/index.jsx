@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Title from '../../components/Title/Title'
 import Window from '../../components/Window/Window'
@@ -8,7 +9,6 @@ export default function index() {
     <div>
 		<Head>
 			<title>Skills</title>
-			<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"></link>
 		</Head>
         <Title text='Skills'/>
         <Window>

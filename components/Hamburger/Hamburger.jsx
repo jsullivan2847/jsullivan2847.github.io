@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import MobileNav from '../Nav/MobileNav'
+import Image from 'next/image'
 
 export default function Hamburger() {
 
@@ -11,8 +12,8 @@ export default function Hamburger() {
     }
 
     const svg = {
-        hamburger: 'images/Hamburger.svg',
-        x: 'images/x.jpg'
+        hamburger: '/images/Hamburger.svg',
+        x: '/images/x.jpg'
     }
 
     const [style, setStyle] = useState(styles.hidden)
@@ -33,7 +34,7 @@ export default function Hamburger() {
 
   return (
     <div className='w-full lg:hidden bg-white z-40 mb-10'>
-        <img onClick={handleClick}className='w-[65px] absolute z-30' src={img} alt=""  />
+        <Image onClick={handleClick}className='w-[65px] absolute z-30' src={img} alt="" width={65} height={40} />
         <div className={style}>
         <MobileNav />
         </div>

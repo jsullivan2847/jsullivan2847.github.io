@@ -7,7 +7,6 @@ export default function Experience() {
     <div className='md:max-w-[600px] pb-[80px]'>
       <Head>
     <title>Experience</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"></link>
     </Head>
       <Title text="Experience"/>
       <div className='p-5'>
@@ -46,7 +45,7 @@ export default function Experience() {
       <ul className='text-sm list-disc'>
         <li>Managed events at multiple venues including setup, volunteer organization, and live mixing audio</li>
         <li>Utilized an ever-growing database of booking contacts and scheduling in Google Sheets</li>
-        <li>Engineered live sessions in studio and remote using multiple DAW's</li>
+        <li>Engineered live sessions in studio and remote using multiple DAWs</li>
       </ul>
       </div>
     </div>

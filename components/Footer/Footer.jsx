@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -11,9 +13,9 @@ export default function Footer() {
         <a href="https://github.com/jsullivan2847">
         <img className=" h-9 mt-5"src="../images/github.png" alt="" />
         </a>
-        <a href="https://www.linkedin.com/in/james-d-sullivan/">
+        <Link href="https://www.linkedin.com/in/james-d-sullivan/">
         <img className=' h-9 mt-5' src="../images/linkedIn.png" alt="" />
-        </a>
+        </Link>
       </div>
     </div>
   )

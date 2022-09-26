@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import HomeNav from '../components/Nav/HomeNav'
 import Window from '../components/Window/Window'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,15 +17,15 @@ export default function Home() {
       </div>
       <div className='absolute rounded-full w-[200px] ring-8h-[200px] flex justify-center items-center'>
       <div className='animate-none text-center'>
-        <a href="/About"><h3 className='transition-all duration-200 p-1  hover:bg-white hover:text-black rounded-md'>About</h3></a>
-        <a href="/Skills"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md' >Skills</h3></a>
-        <a href="/Projects"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md'>Projects</h3></a>
-        <a href="/Experience"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md '>Experience</h3></a>
-        <a href="/Education"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md '>Education</h3></a>
-        <a href="/docs/resume.pdf"
+        <Link href="/About"><h3 className='transition-all duration-200 p-1  hover:bg-white hover:text-black rounded-md'>About</h3></Link>
+        <Link href="/Skills"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md' >Skills</h3></Link>
+        <Link href="/Projects"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md'>Projects</h3></Link>
+        <Link href="/Experience"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md '>Experience</h3></Link>
+        <Link href="/Education"><h3 className='transition-all p-1  hover:bg-white hover:text-black rounded-md '>Education</h3></Link>
+        <Link href="/docs/resume.pdf"
          alt="alt text"
          target="_blank"
-         rel="noopener noreferrer"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md hover:rounded-br-[40px]'>Resume</h3></a>
+         rel="noopener noreferrer"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md hover:rounded-br-[40px]'>Resume</h3></Link>
         </div>
         </div>
       </div>
