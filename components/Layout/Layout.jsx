@@ -14,7 +14,6 @@ export default function Layout({children}) {
   else{
     home = false;
   }
-  console.log(home);
   return (
     <div>
       <div className='font-poppins h-screen overflow-scroll transition-all duration-200 flex flex-col items-center p-3 lg:flex-row lg:items-start lg:p-5'>

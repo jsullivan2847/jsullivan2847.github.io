@@ -22,7 +22,7 @@ export default function About() {
     </div>
     <Window>
     <p className="md:max-w-[600px] font-poppins mb-[]">
-    Hello! Im James - Im a software engineer with a background
+    Hello! I`&quot`m James - I`&quot`m a software engineer with a background
     in the audio and service industries. I have a love for problem solving
     and an eye for outside-the-box solutions. I thrive in collaborative
     environments and bring a positive and focused energy to any team I join.
@@ -33,7 +33,7 @@ export default function About() {
     creative skills and critical thinking. Soon after I enrolled in an
     immersive bootcamp with General Assembly where I learned how to apply my
     skills in a professional setting - working with new technologies and
-    collaborating with other developers. Im excited to continue this
+    collaborating with other developers. I`&quot`m excited to continue this
     journey and bring my growing skill-set to a new team.
   </p>
     </Window>
