@@ -12,6 +12,7 @@ export default function MobileNav() {
         <Link href="/Projects"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md'>Projects</h3></Link>
         <Link href="/Experience"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md'>Experience</h3></Link>
         <Link href="/Education"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md'>Education</h3></Link>
+        <Link href="/Contact"><h3 className='transition-all p-1 hover:mb-2 hover:bg-white hover:text-black rounded-md'>Contact</h3></Link>
         <Link href="/docs/resume.pdf"
          alt="alt text"
          target="_blank"

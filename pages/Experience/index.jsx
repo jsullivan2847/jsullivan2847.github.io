@@ -9,6 +9,7 @@ export default function Experience() {
     <title>Experience</title>
     </Head>
       <Title text="Experience"/>
+      <div className='lg:pl-[120px]'>
       <div className='p-5'>
         <div className='relative rounded-3xl bg-yellow w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>
           <p>Less Than 3 Productions </p>
@@ -47,6 +48,7 @@ export default function Experience() {
         <li>Utilized an ever-growing database of booking contacts and scheduling in Google Sheets</li>
         <li>Engineered live sessions in studio and remote using multiple DAWs</li>
       </ul>
+      </div>
       </div>
     </div>
   )
