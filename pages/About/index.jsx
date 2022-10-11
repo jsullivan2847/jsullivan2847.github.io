@@ -22,19 +22,17 @@ export default function About() {
     </div>
     <Window>
     <p className="md:max-w-[600px] font-poppins mb-[]">
-    Hello! I&#39;m James - I&#39;m a software engineer with a background
-    in the audio and service industries. I have a love for problem solving
-    and an eye for outside-the-box solutions. I thrive in collaborative
-    environments and bring a positive and focused energy to any team I join.
-    My developer journey began a few years ago while studying
-    sound design for game audio. Upon realizing I really enjoyed the
-    programming side of the process, I started teaching myself C# using the
-    Unity game engine. I fell in love with the way coding requires a balance of
-    creative skills and critical thinking. Soon after I enrolled in an
-    immersive bootcamp with General Assembly where I learned how to apply my
-    skills in a professional setting - working with new technologies and
-    collaborating with other developers. I&#39;m excited to continue this
-    journey and bring my growing skill-set to a new team.
+    I&#39;m a software engineer with a background in audio and service. 
+    I specialize on the frontend - particularly React.js. I just finished 
+    developing a geo-location game Hide & Seek that uses the Google Maps API
+    and am currently working on a project called Integrant through TOP (The Opportunity Project) - 
+    a collaborative effort between the US census bureau and participating organizations to 
+    develop public facing digital products using open data. I joined the project 
+    with an entirely new engineering team. Together we&#39;ve been able 
+    to pick up where the creators of the app left off and improve its performance
+    with fresh eyes. I have a love for learning, and I value teamwork and communication. 
+    In the past I&#39;ve toured as a musician and worked in fast paced kitchens. Those experiences 
+    taught me to work with a great sense of urgency and the ability to bring positive energy to any team.
   </p>
     </Window>
     </div>
