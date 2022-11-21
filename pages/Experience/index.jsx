@@ -16,8 +16,7 @@ export default function Experience() {
           </div>
       <span className='text-sm text-special-grey'> <strong> | Brooklyn, NY | </strong>March 2022 - Present</span>
       <ul className='text-sm list-disc'>
-        <li>Pickups and drop-offs to prop houses, carpentry, 
-          painting, and design work.</li>
+        <li>Carpentry, painting, and design work throughout all 5 boroughs of NYC with an emphasis on floral design and seasonal decorations</li>
         <li>Sourced supplies from multiple vendors, scheduling and coordination of staffing for installs in and out of state</li>
       </ul>
     
@@ -26,7 +25,7 @@ export default function Experience() {
         <p className='relative rounded-3xl bg-pink w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>Bottle Shoppe     </p>
       <span className='text-sm text-special-grey'> <strong> | Brooklyn, NY | </strong>April 2021 - March 2022</span>
       <ul className='text-sm list-disc'>
-        <li>Maintained a well curated and extensive inventory of over 300 new and old world wines.</li>
+        <li>Maintained a well curated and extensive inventory of over 300 new and old world wines</li>
         <li>Provided expert recommendations for wine pairings, profiles, and personal taste to regular customers</li>
       </ul>
   

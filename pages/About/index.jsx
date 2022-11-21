@@ -23,9 +23,7 @@ export default function About() {
     <Window>
     <p className="md:max-w-[600px] font-poppins mb-[]">
     I&#39;m a software engineer with a background in audio and service. 
-    I specialize on the frontend - particularly React.js. I just finished 
-    developing a geo-location game Hide & Seek that uses the Google Maps API
-    and am currently working on a project called Integrant through TOP (The Opportunity Project) - 
+    I specialize on the frontend - particularly React.js. For the past few months I have been working on a project called Intergrants through TOP (The Opportunity Project) - 
     a collaborative effort between the US census bureau and participating organizations to 
     develop public facing digital products using open data. I joined the project 
     with an entirely new engineering team. Together we&#39;ve been able 
