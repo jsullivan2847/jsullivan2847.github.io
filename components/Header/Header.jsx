@@ -1,6 +1,5 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
-import Image from 'next/future/image'
 
 export default function Header() {
   return (
@@ -14,4 +13,3 @@ export default function Header() {
   )
 }
 
-//media query 425

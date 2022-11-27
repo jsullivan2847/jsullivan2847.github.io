@@ -4,7 +4,6 @@ import Footer from '../Footer/Footer'
 import Hamburger from '../Hamburger/Hamburger'
 import Nav from '../Nav/Nav'
 import Window from '../Window/Window'
-import Image from 'next/future/image'
 
 export default function Layout({children}) {
   let home = false;
