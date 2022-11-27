@@ -14,6 +14,7 @@ export default function Experience() {
         <div className='relative rounded-3xl bg-yellow w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>
           <p>Less Than 3 Productions </p>
           </div>
+          <p>Design & Production Assistant</p>
       <span className='text-sm text-special-grey'> <strong> | Brooklyn, NY | </strong>March 2022 - Present</span>
       <ul className='text-sm list-disc'>
         <li>Carpentry, painting, and design work throughout all 5 boroughs of NYC with an emphasis on floral design and seasonal decorations</li>
@@ -22,7 +23,8 @@ export default function Experience() {
     
       </div>
       <div className='p-5'>
-        <p className='relative rounded-3xl bg-pink w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>Bottle Shoppe     </p>
+        <p className='relative rounded-3xl bg-pink w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>Bottle Shoppe</p>
+        <p>Wine Sales Associate</p>
       <span className='text-sm text-special-grey'> <strong> | Brooklyn, NY | </strong>April 2021 - March 2022</span>
       <ul className='text-sm list-disc'>
         <li>Maintained a well curated and extensive inventory of over 300 new and old world wines</li>
@@ -31,7 +33,8 @@ export default function Experience() {
   
       </div>
       <div className='p-5'>
-        <p className='relative rounded-3xl bg-green w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>Squibb Coffee & Wine     </p>
+        <p className='relative rounded-3xl bg-green w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>Squibb Coffee & Wine</p>
+        <p>Cafe Manager</p>
       <span className='text-sm text-special-grey'> <strong> | Grand Rapids, MI | </strong>March 2018 - March-2021</span>
       <ul className='text-sm list-disc'>
         <li>Oversaw a wine, cheese, and charcuterie program, developing recipes for a scalable & seasonally changing menu</li>
@@ -41,6 +44,7 @@ export default function Experience() {
       </div>
       <div className='p-5'>
         <p className='relative rounded-3xl bg-blue w-fit px-2 lg:ml-[120px] text-start text-md md:text-2xl sm:text-xl'>DAAC (Division Avenue Arts Collective)</p>
+        <p>Sound Engineer</p>
       <span className='text-sm text-special-grey'> <strong> | Grand Rapids, MI | </strong>March 2018 - March-2021</span>
       <ul className='text-sm list-disc'>
         <li>Managed events at multiple venues including setup, volunteer organization, and live mixing audio</li>
